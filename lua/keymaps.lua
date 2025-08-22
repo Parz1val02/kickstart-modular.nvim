@@ -48,7 +48,6 @@ vim.keymap.set('n', '<leader>e', vim.cmd.Ex, { desc = '[E]xplorer' })
 --Move around highlighted lines in visual mode
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
->>>>>>> 21ab639 (Set up)
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
